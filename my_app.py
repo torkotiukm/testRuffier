@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import (
         QHBoxLayout, QVBoxLayout,
         QPushButton, QLabel, QLineEdit)
 
-app = QApplication([])
+app = QApplication([]) #створення додатку
 window = QWidget()
 window.show()
 app.exec_()
